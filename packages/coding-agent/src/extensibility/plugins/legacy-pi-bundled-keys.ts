@@ -101,6 +101,7 @@ export const BUNDLED_PI_REGISTRY_KEYS: ReadonlySet<string> = new Set([
 	"@oh-my-pi/pi-ai/usage/openai-codex",
 	"@oh-my-pi/pi-ai/usage/opencode-go",
 	"@oh-my-pi/pi-ai/usage/shared",
+	"@oh-my-pi/pi-ai/usage/synthetic",
 	"@oh-my-pi/pi-ai/usage/zai",
 	"@oh-my-pi/pi-ai/utils/abort",
 	"@oh-my-pi/pi-ai/utils/anthropic-auth",

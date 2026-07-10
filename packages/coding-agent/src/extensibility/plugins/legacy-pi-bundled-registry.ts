@@ -125,6 +125,7 @@ import * as bundledPiAiUsageOpenaiCodexBaseUrl from "@oh-my-pi/pi-ai/usage/opena
 import * as bundledPiAiUsageOpenaiCodexReset from "@oh-my-pi/pi-ai/usage/openai-codex-reset";
 import * as bundledPiAiUsageOpencodeGo from "@oh-my-pi/pi-ai/usage/opencode-go";
 import * as bundledPiAiUsageShared from "@oh-my-pi/pi-ai/usage/shared";
+import * as bundledPiAiUsageSynthetic from "@oh-my-pi/pi-ai/usage/synthetic";
 import * as bundledPiAiUsageZai from "@oh-my-pi/pi-ai/usage/zai";
 import * as bundledPiAiUtilsAbort from "@oh-my-pi/pi-ai/utils/abort";
 import * as bundledPiAiUtilsAnthropicAuth from "@oh-my-pi/pi-ai/utils/anthropic-auth";
@@ -1217,6 +1218,7 @@ export const BUNDLED_PI_REGISTRY: Readonly<Record<string, Readonly<Record<string
 	"@oh-my-pi/pi-ai/usage/openai-codex": bundledPiAiUsageOpenaiCodex as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-ai/usage/opencode-go": bundledPiAiUsageOpencodeGo as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-ai/usage/shared": bundledPiAiUsageShared as unknown as Readonly<Record<string, unknown>>,
+	"@oh-my-pi/pi-ai/usage/synthetic": bundledPiAiUsageSynthetic as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-ai/usage/zai": bundledPiAiUsageZai as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-ai/utils/abort": bundledPiAiUtilsAbort as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-ai/utils/anthropic-auth": bundledPiAiUtilsAnthropicAuth as unknown as Readonly<
